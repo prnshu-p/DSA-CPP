@@ -61,6 +61,8 @@ int sumTree(Node *root)
     root->val = ls + rs;
     
     return oldVal + ls + rs;
+}
+
 int main()
 {
     std::vector<int> preOrd = {5, 6, 3, 2, -1, 1, -1, -1, -1, 0, -1, -1, 7, 8, -1, -1, 9, 10, -1, -1, 11, -1, -1};
