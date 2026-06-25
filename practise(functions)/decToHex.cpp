@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-#include <std::string>
+#include <string>
 #include <algorithm>
 int main()
 {

@@ -1,5 +1,5 @@
 #include <iostream>
-#include <std::string>
+#include <string>
 #include <algorithm>
 int main() {
     int a, b, carry = 0, prevCarry = 0;

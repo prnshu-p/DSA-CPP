@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <limits.h>
-#include <std::vector>
+#include <vector>
 #include <cmath>
 int main()
 {

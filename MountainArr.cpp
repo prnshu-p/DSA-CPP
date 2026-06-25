@@ -1,5 +1,5 @@
 #include<iostream>
-#include<std::vector>
+#include<vector>
 int main(){
     std::vector<int> vec;
 
