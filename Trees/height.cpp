@@ -24,6 +24,7 @@ Node *buildTree(std::vector<int> &seq)
     Node *root = new Node(seq[idx]);
     root->left = buildTree(seq);
     root->right = buildTree(seq);
+    return root;
 }
 // void levelOrder(Node *root)
 // {
