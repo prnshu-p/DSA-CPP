@@ -18,7 +18,7 @@ bool func(int idx, int target, std::vector<int> &nums, std::vector<std::vector<i
         take = func(idx - 1, target - nums[idx], nums, dp,count);
     }
 
-    return dp[idx][target] = (take || not_take);
+    return (dp[idx][target] = (take || not_take));
 }
 
 int main()

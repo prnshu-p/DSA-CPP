@@ -16,7 +16,7 @@ int fib(int n) // state of dp
 
 int main()
 {
-    memset(dp, -1, sizeof(dp));
+    std::fill(dp.begin(), dp.end(), -1);
     int n;
     std::cin >> n;
     std::cout << fib(n) << std::endl;
