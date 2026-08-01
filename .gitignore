@@ -47,6 +47,7 @@ build/
 # IDE and Editors
 .vscode/
 .idea/
+.cph/
 *.swp
 *~
 tempCodeRunnerFile.cpp
