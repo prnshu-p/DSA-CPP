@@ -23,6 +23,7 @@ Standalone template files at root level:
 - `segment_trees_2.cpp` — Generic segment tree with custom node type and merge
 - `binary_lifting.cpp` — K-th ancestor queries in O(log N)
 - `LCA_BinaryLifting.cpp` — Lowest Common Ancestor via binary lifting
+- `MonotonicStack.cpp` — Monotonic stack template for next greater/smaller element
 
 ### Solved problems
 
@@ -55,7 +56,8 @@ Standalone template files at root level:
 ├── segment_trees.cpp        # Segment tree template
 ├── segment_trees_2.cpp      # Advanced segment tree template
 ├── binary_lifting.cpp       # K-th ancestor template
-└── LCA_BinaryLifting.cpp    # LCA template
+├── LCA_BinaryLifting.cpp    # LCA template
+└── MonotonicStack.cpp       # Monotonic stack template
 ```
 
 ## Running
