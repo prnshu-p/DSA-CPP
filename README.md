@@ -29,9 +29,11 @@ Standalone template files at root level:
 
 | Directory | What's there |
 |-----------|-------------|
-| `questions/` | ~30 problems from CSES, Codeforces, SPOJ, UVa, POJ — covering segment trees, BIT, DSU, LCA, Euler tour, monotonic stack, two pointers |
-| `USACO_ques/` | USACO contest problems — Cow Checkups, Email Filing, Redistributing Gifts, Robot Instructions, Sleeping in Class |
-| `codeforces_problems/` | Codeforces specific problems — Tree with Maximum Cost (Rerooting DP) |
+| `cses_problems/` | ~35 problems from the CSES Problem Set |
+| `USACO_ques/` | USACO contest problems — Cow Checkups, Email Filing, Redistributing Gifts, Robot Instructions, Sleeping in Class, etc. |
+| `codeforces_problems/` | Codeforces specific problems — Tree with Maximum Cost, Roads not only in Berland, etc. |
+| `atcoder_dp/` | AtCoder Educational DP Contest problems |
+| `questions/` | Miscellaneous problems from SPOJ, UVa, POJ, and general practice |
 
 ### Topics covered so far
 
@@ -51,9 +53,11 @@ Standalone template files at root level:
 ├── dynamic_programming/     # DP problems and patterns
 ├── practise(functions)/     # Math and utility functions
 ├── String/                  # String operations
-├── questions/               # Competitive programming solutions
+├── cses_problems/           # CSES Problem Set solutions
 ├── USACO_ques/              # USACO contest solutions
 ├── codeforces_problems/     # Codeforces specific solutions
+├── atcoder_dp/              # AtCoder Educational DP Contest solutions
+├── questions/               # Miscellaneous & general practice problems
 ├── BIT.cpp                  # Fenwick tree template
 ├── segment_trees.cpp        # Segment tree template
 ├── segment_trees_2.cpp      # Advanced segment tree template
