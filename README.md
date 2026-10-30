@@ -29,20 +29,23 @@ Standalone template files at root level:
 
 | Directory | What's there |
 |-----------|-------------|
-| `cses_problems/` | ~35 problems from the CSES Problem Set |
-| `USACO_ques/` | USACO contest problems — Cow Checkups, Email Filing, Redistributing Gifts, Robot Instructions, Sleeping in Class, etc. |
-| `codeforces_problems/` | Codeforces specific problems — Tree with Maximum Cost, Roads not only in Berland, etc. |
+| `cses_problems/` | ~65+ problems from the CSES Problem Set (Trees, DP, Geometry, Math, Graphs, Strings, Flow) |
+| `USACO_ques/` | USACO contest solutions — Silver, Gold, and Platinum (Max Flow, High Card Low Card, Counting Haybales, etc.) |
+| `codeforces_problems/` | Codeforces contest and problemset solutions (Centroid Decomposition, DSU on Tree, CHT, D&C DP, SOS DP, Virtual Trees, KRT, etc.) |
 | `atcoder_dp/` | AtCoder Educational DP Contest problems |
 | `questions/` | Miscellaneous problems from SPOJ, UVa, POJ, and general practice |
 
 ### Topics covered so far
 
-- Graphs (traversal, shortest paths, MST, DSU, bipartite checking)
-- Trees (Euler tour, subtree/path queries with BIT, binary lifting, LCA)
-- Segment trees (point update, range queries, walk, max subarray, prefix max)
-- Fenwick trees (range sum, range update, coordinate compression, inversion count)
-- Dynamic programming (classical problems, optimization patterns)
-- Disjoint Set Union (standard, parity/bipartite, weighted, reverse-time)
+- Graphs (traversal, shortest paths, MST, DSU, bipartite checking, SCC, 2-SAT, Eulerian circuit, Bridges)
+- Network Flow (Max flow, Min cut, Bipartite matching, Edge-disjoint paths via Dinic)
+- Trees (Euler tour, subtree/path queries with BIT, binary lifting, LCA, Centroid Decomposition, DSU on Tree / Sack, Virtual Trees, Kruskal Reconstruction Trees)
+- Segment trees (point update, range queries, lazy propagation, walk, max subarray, prefix max)
+- Fenwick trees (1D/2D range sum, range update, coordinate compression, inversion count)
+- Advanced Dynamic programming (Divide & Conquer optimization, Knuth optimization, Convex Hull Trick, Li Chao Tree, SOS DP / Yates DP)
+- Computational Geometry (Point location, segment intersection, polygon area, point-in-polygon, Pick's theorem / lattice points, closest pair sweep line, convex hull)
+- String Algorithms (KMP, Z-algorithm, Aho-Corasick automaton, Suffix Array & LCP array)
+- Mathematics & Combinatorics (Matrix exponentiation, Min-plus semiring, Inclusion-Exclusion principle)
 
 ## Structure
 
